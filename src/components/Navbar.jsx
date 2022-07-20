@@ -27,7 +27,7 @@ const Navbar = () => {
                 <button className='px-8 py-3'>Sign Up</button>
             </div>
             <div className='md:hidden mr-4' onClick={handleClick}>
-                {!click ? <AiOutlineMenu className='cursor-pointer' size={30} /> : <AiOutlineClose className='cursor-pointer' />}
+                {!click ? <AiOutlineMenu className='cursor-pointer' size={30} /> : <AiOutlineClose className='cursor-pointer' size={30} />}
 
             </div>
         </div>
