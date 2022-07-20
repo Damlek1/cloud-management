@@ -57,11 +57,13 @@ const Footer = () => {
       <div className='flex flex-col max-w-[1240px] px-2 py-4 mx-auto justify-between sm:flex-row text-center text-gray-500'>
         <p className='py-4'>Damlek &copy; 2022  All rights reserved</p>
         <div className='flex justify-between  sm:w-[300px] pt-4 text-2xl'>
-          <FaFacebook />
-          <FaInstagram />
-          <FaTwitter />
-          <FaLinkedin />
-          <FaGithub />
+          <FaFacebook  className='cursor-pointer'/>
+          <FaInstagram className='cursor-pointer' />
+          <FaTwitter className='cursor-pointer' />
+          <a className='cursor-pointer' href='https://www.linkedin.com/in/damlek1' target='_blank' rel="noopener noreferrer"><FaLinkedin /></a>
+
+          <a className='cursor-pointer' href='https://github.com/Damlek1'><FaGithub /></a>
+
         </div>
       </div>
     </div>
